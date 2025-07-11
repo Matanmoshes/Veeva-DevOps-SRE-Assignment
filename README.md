@@ -144,23 +144,3 @@ If you prefer step-by-step:
 ```
 
 Removes all AWS resources to avoid charges.
-
-### Assignment Compliance
-
-✅ **Infrastructure**: EKS cluster with Terraform  
-✅ **Applications**: Containerized frontend/backend  
-✅ **Monitoring**: Grafana + Prometheus  
-✅ **Automation**: Complete deployment scripts  
-✅ **Documentation**: Comprehensive README  
-
----
-
-## 🎯 For Assignment Evaluation
-
-This repository demonstrates:
-- **DevOps Expertise**: Infrastructure as Code, container orchestration
-- **SRE Practices**: Monitoring, observability, reliability engineering  
-- **Cloud-Native Architecture**: Microservices, Kubernetes, AWS best practices
-- **Production Readiness**: Error handling, security, scalability
-
-**Test the deployment and validate all components work as expected!** 🚀 
