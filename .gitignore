@@ -1,0 +1,101 @@
+# Assignment task file (not needed in submission)
+task.txt
+
+# Terraform files
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+.terraform/
+.terraform.lock.hcl
+terraform.tfplan
+tfplan
+
+# Terraform crash logs
+crash.log
+crash.*.log
+
+# AWS credentials and config (should use AWS CLI config instead)
+.aws/
+aws-credentials.txt
+
+# Kubernetes config (sensitive)
+kubeconfig
+*.kubeconfig
+
+# Docker and build artifacts
+docker/backend/ROOT.war
+docker/backend/app.war
+docker/backend/servlet-api.jar
+docker/backend/WEB-INF/
+docker/backend/*.class
+
+# Backup files from sed operations
+*.bak
+*.backup
+k8s/**/*.bak
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+
+# Node modules (if any frontend build tools are added)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python cache (if any Python tools are used)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# MacOS files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux files
+*~
+
+# SSH keys (if accidentally placed here)
+*.pem
+*.key
+id_rsa*
+*.ssh
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# Secrets and sensitive files
+secrets/
+certs/
+*.crt
+*.cert
+*.ca-bundle
+
+# Helm charts dependencies (if Helm is used later)
+charts/*.tgz
+
+# Generated documentation
+docs/_build/ 
